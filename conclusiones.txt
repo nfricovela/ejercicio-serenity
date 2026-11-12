@@ -1,0 +1,60 @@
+CONCLUSIONES – PRUEBAS AUTOMATIZADAS CON SERENITY BDD
+
+1. OBJETIVO
+
+Se desarrolló una prueba automatizada End-to-End sobre la aplicación SauceDemo, con el propósito de validar el flujo principal de compra de productos y comprobar el comportamiento esperado de la aplicación durante el proceso.
+
+2. RESULTADOS OBTENIDOS
+
+La ejecución final presentó los siguientes resultados:
+
+- Total de pruebas ejecutadas: 1.
+- Pruebas aprobadas: 1.
+- Pruebas fallidas: 0.
+- Errores: 0.
+- Porcentaje de aprobación: 100 %.
+
+El reporte de Serenity registró una duración total de 2 minutos y 4 segundos.
+
+3. VALIDACIONES REALIZADAS
+
+Durante el escenario se verificaron los siguientes aspectos:
+
+- Acceso exitoso con las credenciales de demostración.
+- Visualización del catálogo de productos.
+- Incorporación de dos productos al carrito.
+- Cantidad correcta de productos en el carrito.
+- Correspondencia de los productos seleccionados.
+- Acceso al formulario de compra.
+- Diligenciamiento de los datos requeridos.
+- Visualización de los productos en el resumen de compra.
+- Finalización satisfactoria del proceso.
+- Visualización del mensaje de confirmación de la orden.
+
+4. CONCLUSIONES TÉCNICAS
+
+La implementación permitió aplicar conceptos de automatización de pruebas funcionales mediante Serenity BDD y Selenium WebDriver.
+
+Se utilizaron esperas explícitas para sincronizar las interacciones con los elementos de la interfaz, así como aserciones para comprobar los resultados esperados en diferentes etapas del flujo.
+
+La generación del reporte de Serenity facilitó la consulta de los resultados, las estadísticas y la cobertura funcional de la ejecución.
+
+5. OPORTUNIDADES DE MEJORA
+
+Como posibles ampliaciones del proyecto se identifican:
+
+- Incorporar escenarios adicionales para validar diferentes comportamientos del proceso de compra.
+- Implementar pruebas negativas de autenticación.
+- Validar mensajes de error y campos obligatorios del formulario.
+- Ampliar la cobertura funcional mediante escenarios independientes.
+- Integrar la ejecución automatizada en un flujo de integración continua (CI/CD).
+
+6. CONCLUSIÓN GENERAL
+
+La prueba automatizada se ejecutó satisfactoriamente y cumplió el objetivo de validar el flujo completo de compra definido para el ejercicio.
+
+El resultado obtenido fue del 100 % de aprobación, sin fallos ni errores reportados.
+
+El proyecto permitió fortalecer los conocimientos en automatización E2E, uso de Serenity BDD, Selenium WebDriver, JUnit 5 y generación de reportes de pruebas.
+
+FIN DE LAS CONCLUSIONES.
